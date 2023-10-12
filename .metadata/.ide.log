@@ -942,3 +942,114 @@
 2023-10-05 14:18:27,040 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 2408mS.
 2023-10-05 14:18:27,040 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
 2023-10-05 14:18:27,042 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-05 15:12:33,218 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 261392424 Bytes (786432000)
+2023-10-05 15:12:35,243 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 279194288 Bytes (786432000)
+2023-10-05 15:12:36,271 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 310651568 Bytes (786432000)
+2023-10-05 15:12:36,456 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-05 15:12:36,456 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-05 15:12:36,456 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-05 15:12:36,456 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-05 15:12:36,456 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-05 15:12:36,457 [INFO] CodeGenerator:799 - code generatio: config db path: C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-05 15:12:36,582 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\MXTmpFiles\license.tmp_save
+2023-10-05 15:12:36,743 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\MXTmpFiles\license.tmp
+2023-10-05 15:12:36,808 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\MXTmpFiles\gpio.tmp_save
+2023-10-05 15:12:36,940 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\MXTmpFiles\gpio.tmp
+2023-10-05 15:12:37,071 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Src\stm32f0xx_it.c_save
+2023-10-05 15:12:37,419 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Src\stm32f0xx_it.c
+2023-10-05 15:12:37,436 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Inc\stm32f0xx_it.h_save
+2023-10-05 15:12:37,507 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Inc\stm32f0xx_it.h
+2023-10-05 15:12:37,516 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\MXTmpFiles\system.tmp_save
+2023-10-05 15:12:37,625 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\MXTmpFiles\system.tmp
+2023-10-05 15:12:37,630 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Inc\stm32_assert.h_save
+2023-10-05 15:12:37,700 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Inc\stm32_assert.h
+2023-10-05 15:12:37,703 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_LSEDRIVE_CONFIG is not available in your config.xml file
+2023-10-05 15:12:37,706 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_ClockConfig is not available in your config.xml file
+2023-10-05 15:12:37,706 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_MCOConfig is not available in your config.xml file
+2023-10-05 15:12:37,706 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_interrupt_Time_SYSTICK_Config is not available in your config.xml file
+2023-10-05 15:12:37,706 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_SYSTICK_CONFIG is not available in your config.xml file
+2023-10-05 15:12:37,725 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Inc\main.h_save
+2023-10-05 15:12:37,844 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Inc\main.h
+2023-10-05 15:12:37,857 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Src\main.c_save
+2023-10-05 15:12:37,993 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Src\main.c
+2023-10-05 15:12:38,482 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 83mS.
+2023-10-05 15:12:38,486 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-05 15:12:38,672 [INFO] ConfigFileManager:1457 - The Die is : DIE440
+2023-10-05 15:12:40,291 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1806mS.
+2023-10-05 15:12:40,292 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-05 15:12:40,294 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-05 15:22:03,179 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 266540968 Bytes (909115392)
+2023-10-05 15:22:04,642 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 297339256 Bytes (909115392)
+2023-10-05 15:22:06,332 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 289724984 Bytes (909115392)
+2023-10-05 15:22:06,554 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-05 15:22:06,554 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-05 15:22:06,554 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-05 15:22:06,554 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-05 15:22:06,554 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-05 15:22:06,555 [INFO] CodeGenerator:799 - code generatio: config db path: C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-05 15:22:06,701 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\MXTmpFiles\license.tmp_save
+2023-10-05 15:22:06,831 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\MXTmpFiles\license.tmp
+2023-10-05 15:22:06,889 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\MXTmpFiles\gpio.tmp_save
+2023-10-05 15:22:06,999 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\MXTmpFiles\gpio.tmp
+2023-10-05 15:22:07,123 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Src\stm32f0xx_it.c_save
+2023-10-05 15:22:07,277 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Src\stm32f0xx_it.c
+2023-10-05 15:22:07,284 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Inc\stm32f0xx_it.h_save
+2023-10-05 15:22:07,357 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Inc\stm32f0xx_it.h
+2023-10-05 15:22:07,367 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\MXTmpFiles\system.tmp_save
+2023-10-05 15:22:07,472 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\MXTmpFiles\system.tmp
+2023-10-05 15:22:07,477 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Inc\stm32_assert.h_save
+2023-10-05 15:22:07,551 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Inc\stm32_assert.h
+2023-10-05 15:22:07,554 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_LSEDRIVE_CONFIG is not available in your config.xml file
+2023-10-05 15:22:07,558 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_ClockConfig is not available in your config.xml file
+2023-10-05 15:22:07,558 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_MCOConfig is not available in your config.xml file
+2023-10-05 15:22:07,558 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_interrupt_Time_SYSTICK_Config is not available in your config.xml file
+2023-10-05 15:22:07,558 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_SYSTICK_CONFIG is not available in your config.xml file
+2023-10-05 15:22:07,581 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Inc\main.h_save
+2023-10-05 15:22:07,673 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Inc\main.h
+2023-10-05 15:22:07,686 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Src\main.c_save
+2023-10-05 15:22:07,813 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Src\main.c
+2023-10-05 15:22:08,383 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 82mS.
+2023-10-05 15:22:08,385 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-05 15:22:08,599 [INFO] ConfigFileManager:1457 - The Die is : DIE440
+2023-10-05 15:22:09,942 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1556mS.
+2023-10-05 15:22:09,942 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-05 15:22:09,945 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-05 15:26:05,413 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, USART2]
+2023-10-05 15:26:19,951 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, USART2]
+2023-10-05 15:26:19,994 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-05 15:26:39,394 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 482810200 Bytes (843055104)
+2023-10-05 15:26:42,412 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 541860176 Bytes (843055104)
+2023-10-05 15:26:44,173 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 607042400 Bytes (843055104)
+2023-10-05 15:26:44,359 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-05 15:26:44,359 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-05 15:26:44,359 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-05 15:26:44,359 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-05 15:26:44,359 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-05 15:26:44,360 [INFO] CodeGenerator:799 - code generatio: config db path: C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-05 15:26:44,483 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\MXTmpFiles\license.tmp_save
+2023-10-05 15:26:44,582 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\MXTmpFiles\license.tmp
+2023-10-05 15:26:44,634 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\MXTmpFiles\gpio.tmp_save
+2023-10-05 15:26:44,754 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\MXTmpFiles\gpio.tmp
+2023-10-05 15:26:44,975 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Src\stm32f0xx_it.c_save
+2023-10-05 15:26:45,095 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Src\stm32f0xx_it.c
+2023-10-05 15:26:45,111 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Inc\stm32f0xx_it.h_save
+2023-10-05 15:26:45,209 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Inc\stm32f0xx_it.h
+2023-10-05 15:26:45,221 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\MXTmpFiles\system.tmp_save
+2023-10-05 15:26:45,328 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\MXTmpFiles\system.tmp
+2023-10-05 15:26:45,336 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Inc\stm32_assert.h_save
+2023-10-05 15:26:45,408 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Inc\stm32_assert.h
+2023-10-05 15:26:45,411 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_LSEDRIVE_CONFIG is not available in your config.xml file
+2023-10-05 15:26:45,414 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_ClockConfig is not available in your config.xml file
+2023-10-05 15:26:45,414 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_MCOConfig is not available in your config.xml file
+2023-10-05 15:26:45,414 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_interrupt_Time_SYSTICK_Config is not available in your config.xml file
+2023-10-05 15:26:45,414 [WARN] IPConfigManager:2937 - Warning: the RefConfig RCC_SYSTICK_CONFIG is not available in your config.xml file
+2023-10-05 15:26:45,432 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Inc\main.h_save
+2023-10-05 15:26:45,549 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Inc\main.h
+2023-10-05 15:26:45,567 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\xladis00\MKS\cv02\Core\Src\main.c_save
+2023-10-05 15:26:45,693 [INFO] CodeEngine:279 - Generated code: C:\Temp\xladis00\MKS\cv02\Core\Src\main.c
+2023-10-05 15:26:46,181 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 82mS.
+2023-10-05 15:26:46,183 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-05 15:26:46,369 [INFO] ConfigFileManager:1457 - The Die is : DIE440
+2023-10-05 15:26:47,956 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1773mS.
+2023-10-05 15:26:47,957 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-05 15:26:47,959 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
