@@ -98,7 +98,7 @@ int main(void) {
 
 	while (1) {
 
-s		for (int i = 0; i < 32; ++ i) {
+		for(int i = 0; i < 32; ++ i) {
 
 			if ((pole>>i)%2) {
 				LL_GPIO_SetOutputPin(LD2_GPIO_Port, LD2_Pin);
