@@ -1,21 +1,231 @@
-17:15:30 **** Incremental Build of configuration Debug for project cv004 ****
+15:31:07 **** Incremental Build of configuration Debug for project cv05 ****
 make -j4 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "cv004.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\xladis00\MKS\cv004\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cv004.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: cv004.elf
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_hal_msp.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_hal_msp.d" -MT"Core/Src/stm32f0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "cv05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\xladis00\MKS\cv05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cv05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: cv05.elf
  
+arm-none-eabi-size   cv05.elf 
+arm-none-eabi-objdump -h -S  cv05.elf  > "cv05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15620	    112	   2432	  18164	   46f4	cv05.elf
+Finished building: default.size.stdout
+ 
+Finished building: cv05.list
+ 
+15:31:10 **** Incremental Build of configuration Debug for project cv05 ****
+make -j4 all 
+arm-none-eabi-size   cv05.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15620	    112	   2432	  18164	   46f4	cv05.elf
+Finished building: default.size.stdout
+ 
+15:35:29 **** Incremental Build of configuration Debug for project CV01 ****
+make -j4 all 
+arm-none-eabi-size   CV01.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2384	     12	   1564	   3960	    f78	CV01.elf
+Finished building: default.size.stdout
+ 
+15:35:30 **** Incremental Build of configuration Debug for project cv004 ****
+make -j4 all 
 arm-none-eabi-size   cv004.elf 
-arm-none-eabi-objdump -h -S  cv004.elf  > "cv004.list"
    text	   data	    bss	    dec	    hex	filename
   17428	     20	   1796	  19244	   4b2c	cv004.elf
 Finished building: default.size.stdout
  
-Finished building: cv004.list
+15:35:30 **** Incremental Build of configuration Debug for project cv02 ****
+make -j4 all 
+arm-none-eabi-size   cv02.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5392	     16	   1592	   7000	   1b58	cv02.elf
+Finished building: default.size.stdout
  
-17:15:33 **** Incremental Build of configuration Debug for project cv004 ****
+15:35:31 **** Incremental Build of configuration Debug for project cv05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:114:14: error: 'l1' undeclared (first use in this function)
+  114 |              l1 = HAL_GPIO_ReadPin(LED1_GPIO_Port, LED1_Pin);
+      |              ^~
+../Core/Src/main.c:114:14: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:115:18: error: 'l2' undeclared (first use in this function)
+  115 |                  l2 = HAL_GPIO_ReadPin(LED2_GPIO_Port, LED2_Pin);
+      |                  ^~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+15:35:51 **** Incremental Build of configuration Debug for project CV01 ****
+make -j4 all 
+arm-none-eabi-size   CV01.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2384	     12	   1564	   3960	    f78	CV01.elf
+Finished building: default.size.stdout
+ 
+15:35:51 **** Incremental Build of configuration Debug for project cv004 ****
 make -j4 all 
 arm-none-eabi-size   cv004.elf 
    text	   data	    bss	    dec	    hex	filename
   17428	     20	   1796	  19244	   4b2c	cv004.elf
+Finished building: default.size.stdout
+ 
+15:35:52 **** Incremental Build of configuration Debug for project cv02 ****
+make -j4 all 
+arm-none-eabi-size   cv02.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5392	     16	   1592	   7000	   1b58	cv02.elf
+Finished building: default.size.stdout
+ 
+15:35:52 **** Incremental Build of configuration Debug for project cv05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:114:14: error: unknown type name 'boolean'
+  114 |              boolean l1 = HAL_GPIO_ReadPin(LED1_GPIO_Port, LED1_Pin);
+      |              ^~~~~~~
+../Core/Src/main.c:115:18: error: unknown type name 'boolean'
+  115 |                  boolean l2 = HAL_GPIO_ReadPin(LED2_GPIO_Port, LED2_Pin);
+      |                  ^~~~~~~
+../Core/Src/main.c:117:37: warning: unknown conversion type character 'b' in format [-Wformat=]
+  117 |                 printf("Stav LED1: %b", l1 );
+      |                                     ^
+../Core/Src/main.c:117:24: warning: too many arguments for format [-Wformat-extra-args]
+  117 |                 printf("Stav LED1: %b", l1 );
+      |                        ^~~~~~~~~~~~~~~
+../Core/Src/main.c:118:37: warning: unknown conversion type character 'b' in format [-Wformat=]
+  118 |                 printf("Stav LED1: %b", l2 );
+      |                                     ^
+../Core/Src/main.c:118:24: warning: too many arguments for format [-Wformat-extra-args]
+  118 |                 printf("Stav LED1: %b", l2 );
+      |                        ^~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+15:36:23 **** Incremental Build of configuration Debug for project CV01 ****
+make -j4 all 
+arm-none-eabi-size   CV01.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2384	     12	   1564	   3960	    f78	CV01.elf
+Finished building: default.size.stdout
+ 
+15:36:24 **** Incremental Build of configuration Debug for project cv004 ****
+make -j4 all 
+arm-none-eabi-size   cv004.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17428	     20	   1796	  19244	   4b2c	cv004.elf
+Finished building: default.size.stdout
+ 
+15:36:24 **** Incremental Build of configuration Debug for project cv02 ****
+make -j4 all 
+arm-none-eabi-size   cv02.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5392	     16	   1592	   7000	   1b58	cv02.elf
+Finished building: default.size.stdout
+ 
+15:36:24 **** Incremental Build of configuration Debug for project cv05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:114:14: error: unknown type name 'boolean'
+  114 |              boolean l1 = HAL_GPIO_ReadPin(LED1_GPIO_Port, LED1_Pin);
+      |              ^~~~~~~
+../Core/Src/main.c:115:18: error: unknown type name 'boolean'
+  115 |                  boolean l2 = HAL_GPIO_ReadPin(LED2_GPIO_Port, LED2_Pin);
+      |                  ^~~~~~~
+../Core/Src/main.c:117:37: warning: unknown conversion type character 'B' in format [-Wformat=]
+  117 |                 printf("Stav LED1: %B", l1 );
+      |                                     ^
+../Core/Src/main.c:117:24: warning: too many arguments for format [-Wformat-extra-args]
+  117 |                 printf("Stav LED1: %B", l1 );
+      |                        ^~~~~~~~~~~~~~~
+../Core/Src/main.c:118:37: warning: unknown conversion type character 'B' in format [-Wformat=]
+  118 |                 printf("Stav LED1: %B", l2 );
+      |                                     ^
+../Core/Src/main.c:118:24: warning: too many arguments for format [-Wformat-extra-args]
+  118 |                 printf("Stav LED1: %B", l2 );
+      |                        ^~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+15:38:03 **** Incremental Build of configuration Debug for project CV01 ****
+make -j4 all 
+arm-none-eabi-size   CV01.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2384	     12	   1564	   3960	    f78	CV01.elf
+Finished building: default.size.stdout
+ 
+15:38:04 **** Incremental Build of configuration Debug for project cv004 ****
+make -j4 all 
+arm-none-eabi-size   cv004.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17428	     20	   1796	  19244	   4b2c	cv004.elf
+Finished building: default.size.stdout
+ 
+15:38:04 **** Incremental Build of configuration Debug for project cv02 ****
+make -j4 all 
+arm-none-eabi-size   cv02.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5392	     16	   1592	   7000	   1b58	cv02.elf
+Finished building: default.size.stdout
+ 
+15:38:05 **** Incremental Build of configuration Debug for project cv05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "cv05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\xladis00\MKS\cv05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cv05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: cv05.elf
+ 
+arm-none-eabi-size   cv05.elf 
+arm-none-eabi-objdump -h -S  cv05.elf  > "cv05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15824	    112	   2432	  18368	   47c0	cv05.elf
+Finished building: default.size.stdout
+ 
+Finished building: cv05.list
+ 
+15:38:09 **** Incremental Build of configuration Debug for project cv05 ****
+make -j4 all 
+arm-none-eabi-size   cv05.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15824	    112	   2432	  18368	   47c0	cv05.elf
+Finished building: default.size.stdout
+ 
+15:39:26 **** Incremental Build of configuration Debug for project CV01 ****
+make -j4 all 
+arm-none-eabi-size   CV01.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2384	     12	   1564	   3960	    f78	CV01.elf
+Finished building: default.size.stdout
+ 
+15:39:27 **** Incremental Build of configuration Debug for project cv004 ****
+make -j4 all 
+arm-none-eabi-size   cv004.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17428	     20	   1796	  19244	   4b2c	cv004.elf
+Finished building: default.size.stdout
+ 
+15:39:27 **** Incremental Build of configuration Debug for project cv02 ****
+make -j4 all 
+arm-none-eabi-size   cv02.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5392	     16	   1592	   7000	   1b58	cv02.elf
+Finished building: default.size.stdout
+ 
+15:39:27 **** Incremental Build of configuration Debug for project cv05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "cv05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\xladis00\MKS\cv05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="cv05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: cv05.elf
+ 
+arm-none-eabi-size   cv05.elf 
+arm-none-eabi-objdump -h -S  cv05.elf  > "cv05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15824	    112	   2432	  18368	   47c0	cv05.elf
+Finished building: default.size.stdout
+ 
+Finished building: cv05.list
+ 
+15:39:35 **** Incremental Build of configuration Debug for project cv05 ****
+make -j4 all 
+arm-none-eabi-size   cv05.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15824	    112	   2432	  18368	   47c0	cv05.elf
 Finished building: default.size.stdout
  
