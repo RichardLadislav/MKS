@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="raw_vref"/>
+		<item key="selection" value="MEM"/>
 		<list key="findhistory">
+			<item value="mem_write"/>
+			<item value="mem"/>
+			<item value="platform"/>
 			<item value="raw_vref"/>
 			<item value="raw_pot"/>
 		</list>
