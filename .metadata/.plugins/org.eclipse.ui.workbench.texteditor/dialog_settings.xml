@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="MEM"/>
 		<list key="findhistory">
+			<item value="while(ink = 0, k &lt; 4, k++)"/>
 			<item value="mem_write"/>
 			<item value="mem"/>
 			<item value="platform"/>
