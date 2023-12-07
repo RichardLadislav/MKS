@@ -1786,3 +1786,24 @@ org.eclipse.core.runtime.CoreException: Setup exceptions
 
 !ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2023-11-30 17:04:27.079
 !MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 168000000; div: 84
+!SESSION 2023-12-07 14:10:29.112 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-12-07 14:10:56.805
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-12-07 14:10:56.805
+!MESSAGE Log4j2 initialized with config file C:\Temp\xladis00\MKS\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-07 14:11:09.242
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-07 14:13:26.995
+!MESSAGE Indexed 'cv11-smajlici' (26 sources, 89 headers) in 4.66 sec: 6,635 declarations; 34,633 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0048%)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-12-07 15:33:34.151
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.internal.ui.actions.DsfTerminateCommand$3$1@48b2e93a): Status OK: unknown code=0 OK' resulted in a rejected execution exception.
