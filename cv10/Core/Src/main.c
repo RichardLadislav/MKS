@@ -56,6 +56,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART3_UART_Init(void);
 static void MX_TIM3_Init(void);
+
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -82,6 +83,7 @@ int main(void) {
 	HAL_Init();
 
 	/* USER CODE BEGIN Init */
+	/* Initialize tcp echo server */
 
 	/* USER CODE END Init */
 
@@ -96,6 +98,7 @@ int main(void) {
 	MX_GPIO_Init();
 	MX_USART3_UART_Init();
 	MX_TIM3_Init();
+
 	/* USER CODE BEGIN 2 */
 	HAL_TIM_Base_Start_IT(&htim3);
 	/* USER CODE END 2 */
